@@ -29,8 +29,12 @@ Product.init(
     },
     stock: {
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: false,
+      defaultValue: 10
       //Default value of 10, Validates that the value if numeric. 
+      validate: {
+        isNumeric: true,
+      },
       
     },
     category_id: {
