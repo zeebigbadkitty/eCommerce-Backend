@@ -26,7 +26,7 @@ Using "npm i", you will have to install all required dependencies and then conti
 
 ## Example
 
-![Click here for an example.](/assets/Example.gif)
+![Click here for an example.](./assets/Example.gif)
 
 ## Credits
 
